@@ -185,7 +185,6 @@ public class LeavePage {
 		Util.click(driver, holidays, "Holidays in Dropdown");
 		Util.click(driver, btn_add, "add button");
 		Util.sendkeys(driver, Enter_Name, Holiday1, "Holiday name");
-		Util.ScrollUP(driver);
 		Util.sendkeys(driver, Enter_Date, H_Date, "Holiday Date");
 		//Util.click(driver, Full_Half01, "Full or Half Day");
 		Util.click(driver, Full_Half, "Full or Half Day");
